@@ -1,0 +1,8 @@
+- provide(:title, 'Interview')
+.container.content-area 
+  br
+  h3.center
+    = @contact_form.contact_date.strftime("Мы ждем Вас %d/%m/%Y в %R")
+    //= @contact_form.contact_date.in_time_zone("Europe/Kiev").strftime("Мы ждем Вас %d/%m/%Y в %R")
+  br
+  = link_to "Back", :back

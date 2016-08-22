@@ -1,0 +1,22 @@
+https://www.youtube.com/watch?v=6rUC5eZE52o
+
+http://tutorials.jumpstartlab.com/topics/capybara/capybara_practice.html
+
+http://www.opinionatedprogrammer.com/2011/02/capybara-and-selenium-with-rspec-and-rails-3/
+
+https://github.com/jnicklas/capybara
+https://github.com/jnicklas/capybara#capybara-webkit
+
+
+
+Failure/Error: visit 'http://www.facebook.com'
+
+ActionController::RoutingError:
+No route matches [GET] "/"
+
+
+
+https://github.com/tigerlily/capybara-facebook
+
+
+http://stackoverflow.com/questions/21411596/rails-redirect-to-is-redirecting-from-https-correct-to-http-incorrect    --- HTTPS

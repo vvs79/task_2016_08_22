@@ -1,0 +1,19 @@
+.form-group
+  = form_for @contact_form, html: { multipart: true } do |f|
+    = render 'shared/error_messages', object: f.object
+    = f.label :name, "Name"
+    = f.text_field :name, :placeholder => "Name", class: 'form-control'
+    = f.label :age, "Age"
+    = f.text_field :age, :placeholder => "Age", class: 'form-control'
+    br
+    = f.label :contact_date, "Select Contact Date and Time"
+    br
+    = f.date_select :contact_date, start_year: Date.today.year, class: 'form-control'
+    br
+    = f.time_select :contact_date, ignore_date: true, class: 'form-control'
+    br
+    br
+    = f.label :resume, 'Select file'
+    = f.file_field :resume
+    br
+    = f.submit yield(:button_text), class: "btn btn-md btn-success col-md-4 col-md-offset-4"
