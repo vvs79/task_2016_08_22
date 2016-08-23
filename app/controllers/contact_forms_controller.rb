@@ -10,7 +10,7 @@ class ContactFormsController < ApplicationController
   end
 
   def new
-    ContactForm.delete_all
+    # ContactForm.delete_all
     @contact_form = ContactForm.new
   end
 

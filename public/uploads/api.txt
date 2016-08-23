@@ -1,0 +1,7 @@
+https://www.airpair.com/ruby-on-rails/posts/building-a-restful-api-in-a-rails-application
+http://railscasts.com/episodes/352-securing-an-api?view=asciicast
+provide list through RESTful JSON API rails
+
+https://labs.kollegorna.se/blog/2015/04/build-an-api-now/
+https://github.com/vasilakisfil/rails_tutorial_api/tree/master/app
+secure API rails
